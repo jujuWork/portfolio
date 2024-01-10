@@ -9,8 +9,8 @@ a {
 }
 
 nav {
-    border: 1px solid red;
     width: 100%;
+    display: fixed;
 }
 
 .nav-list {
@@ -25,6 +25,9 @@ nav {
 .nav-item {
     list-style: none;
     margin-right: 30px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.5px;
+    transition: 0.5s ease;
 }
 
 .nav-item a {
@@ -35,4 +38,13 @@ nav {
     margin-right: auto;
     margin-left: 15px;
     list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+}
+
+.span-nav:hover {
+    color: #3282B8;
+    text
 }
