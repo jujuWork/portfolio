@@ -10,7 +10,6 @@ a {
 
 nav {
     width: 100%;
-    display: fixed;
 }
 
 .nav-list {
@@ -46,5 +45,26 @@ nav {
 
 .span-nav:hover {
     color: #3282B8;
-    text
+}
+
+header {
+    border: 1px solid red;
+    width: 100%;
+    margin: 70px auto;
+    text-align: center;
+}
+
+header .profpic {
+    width: 250px;
+    height: 280px;
+    margin: 0 auto;
+    background-image: url('https://i.ibb.co/74xhcPF/profpic.webp');
+    border-radius: 50%;
+    filter: drop-shadow(0 0 0.75rem #BBE1FA);
+}
+
+header .profpic-item {
+    font-family: 'Montserrat', sans-serif;
+    color: #BBE1FA;
+    letter-spacing: 1.5px;
 }
