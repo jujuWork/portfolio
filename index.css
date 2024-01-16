@@ -74,12 +74,15 @@ header .profpic-item {
 
 section {
     border: 1px solid red;
-    margin: 150px auto;
-}
-
-.experience {
+    margin: 200px 0;
+    color: #BBE1FA;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    border: 1px solid blue;
+}
+
+section div {
+    border: 1px solid pink;
+    width: 100%;
+    text-align: center;
 }
