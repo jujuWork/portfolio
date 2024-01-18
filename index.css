@@ -53,7 +53,7 @@ nav {
 
 header {
     width: 100%;
-    margin: 70px auto;
+    margin: 150px auto;
     text-align: center;
 }
 
@@ -73,20 +73,18 @@ header .profpic-item {
 }
 
 section {
-    margin: 200px 0;
+    margin: 300px 0;
     color: #BBE1FA;
     font-family: 'Montserrat', sans-serif;
 }
 
 section .exp1 {
     width: 100%;
-    border: 1px solid orange;
     letter-spacing: 4px;
     font-size: 1.3rem;
 }
 
 section .subject {
-    border: 1px solid aqua;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -95,12 +93,15 @@ section .subject {
     margin: 10px auto;
 }
 
+/* HTML TOP OVERLAY */
+
 section .exp2 {
     position: relative;
 }
 
 .html-image {
     display: inherit;
+    height: 100%;
 }
 
 .top-overlay {
@@ -121,7 +122,90 @@ section .exp2 {
 }
 
 .text {
-    text-align: center;
-    font-size: 2rem;
+    height: 100%;
     margin: auto;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* CSS BOTTOM OVERLAY */
+
+section .exp3 {
+    position: relative;
+}
+
+.css-image {
+    display: inherit;
+}
+
+.btm-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1B262C;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.6s ease;
+}
+
+.exp3:hover .btm-overlay {
+    height: 100%;
+}
+
+
+/* JS ZOOM OVERLAY */
+
+section .exp4 {
+    position: relative;
+}
+
+.js-image {
+    display: inherit;
+}
+
+.zoom-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1B262C;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: 0.5s ease;
+    transition: 0.6s ease;
+}
+
+.exp4:hover .zoom-overlay {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+/* PROJECT */
+
+article {
+    margin: 300px 0;
+    color: #BBE1FA;
+    font-family: 'Montserrat', sans-serif;
+}
+
+article .project {
+        width: 100%;
+        letter-spacing: 4px;
+        font-size: 1.3rem;
+}
+
+.project-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid red;
+    width: 100%;
 }
