@@ -30,6 +30,8 @@ a {
     text-decoration: none;
 }
 
+/* NAVIGATION */
+
 nav {
     width: 100%;
 }
@@ -69,6 +71,8 @@ nav {
     color: #3282B8;
 }
 
+/* HEADER */
+
 header {
     width: 100%;
     margin: 150px auto;
@@ -90,13 +94,15 @@ header .profpic-item {
     letter-spacing: 1.5px;
 }
 
+/* SECTION */
+
 section {
     margin: 300px 0;
     color: #BBE1FA;
     font-family: 'Montserrat', sans-serif;
 }
 
-section .exp1 {
+section .skill {
     width: 100%;
     letter-spacing: 4px;
     font-size: 1.3rem;
@@ -113,7 +119,7 @@ section .subject {
 
 /* HTML TOP OVERLAY */
 
-section .exp2 {
+section .skill1 {
     position: relative;
 }
 
@@ -133,7 +139,7 @@ section .exp2 {
     height: 0;
 }
 
-.exp2:hover .top-overlay {
+.skill1:hover .top-overlay {
     bottom:  0;
     height: 100%;
     transition: 0.6s ease;
@@ -149,7 +155,7 @@ section .exp2 {
 
 /* CSS BOTTOM OVERLAY */
 
-section .exp3 {
+section .skill2 {
     position: relative;
 }
 
@@ -169,14 +175,14 @@ section .exp3 {
     transition: 0.6s ease;
 }
 
-.exp3:hover .btm-overlay {
+.skill2:hover .btm-overlay {
     height: 100%;
 }
 
 
 /* JS ZOOM OVERLAY */
 
-section .exp4 {
+section .skill3 {
     position: relative;
 }
 
@@ -200,7 +206,7 @@ section .exp4 {
     transition: 0.6s ease;
 }
 
-.exp4:hover .zoom-overlay {
+.skill3:hover .zoom-overlay {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
