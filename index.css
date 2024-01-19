@@ -254,7 +254,7 @@ article .project-items div {
 
 article .bookstore {
     text-align: center;
-    padding: 3px;
+    padding: 3px 3px;
     margin: 20px auto;
     transition: 0.6s ease;
     border-radius: 8px;
@@ -267,4 +267,10 @@ article .bookstore {
 
 .bookstore:hover {
     transform: scale(1.1);
+}
+
+.bookstore img {
+    border-radius: 8px;
+    margin: 0;
+    display: block;
 }
