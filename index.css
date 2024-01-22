@@ -275,3 +275,34 @@ article .bookstore {
     margin: 0;
     display: block;
 }
+
+/* ABOUT ME */
+
+#About-Me {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.education {
+    width: 100%;
+    height: 100%;
+    background-color: #BBE1FA;
+}
+
+.education span {
+    border: 1px solid red;
+    width: 100%;
+    color: #000;
+}
+
+.experience {
+    width: 100%;
+    height: 100%;
+    background-color: #BBE1FA;
+}
+
+.experience span {
+    border: 1px solid red;
+    width: 100%;
+}
