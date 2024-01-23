@@ -249,7 +249,7 @@ article .project-items div {
     width: 300px;
     height: 100%;
     background-color: #BBE1FA;
-    margin: auto;
+    margin: 100px auto;
 }
 
 article .bookstore {
@@ -279,13 +279,26 @@ article .bookstore {
 /* ABOUT ME */
 
 #About-Me {
+    width: 100%;
+}
+
+.about-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #BBE1FA;
+    letter-spacing: 1.5px;
+}
+
+.about {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
+    margin: 100px auto;
+    text-align: center;
 }
 
 .education {
-    width: 100%;
+    width: 300px;
     height: 100%;
     background-color: #BBE1FA;
 }
@@ -297,7 +310,7 @@ article .bookstore {
 }
 
 .experience {
-    width: 100%;
+    width: 300px;
     height: 100%;
     background-color: #BBE1FA;
 }
