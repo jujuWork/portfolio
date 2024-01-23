@@ -24,6 +24,7 @@ body {
     margin: auto;
     width: 95%;
     background-color: #1B262C;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -48,7 +49,6 @@ nav {
 .nav-item {
     list-style: none;
     margin-right: 30px;
-    font-family: 'Montserrat', sans-serif;
     letter-spacing: 1.5px;
     transition: 0.5s ease;
 }
@@ -61,7 +61,6 @@ nav {
     margin-right: auto;
     margin-left: 15px;
     list-style: none;
-    font-family: 'Montserrat', sans-serif;
     font-size: 1.8rem;
     font-weight: 600;
     letter-spacing: 2.5px;
@@ -97,7 +96,7 @@ header .profpic-item {
 /* SECTION */
 
 section {
-    margin: 300px 0;
+    margin: 350px 0;
     color: #BBE1FA;
     font-family: 'Montserrat', sans-serif;
 }
@@ -226,15 +225,18 @@ section .skill3 {
 /* PROJECT */
 
 article {
-    margin: 300px 0;
+    margin: 800px 0;
     color: #BBE1FA;
-    font-family: 'Montserrat', sans-serif;
 }
 
 article .project {
     width: 100%;
     letter-spacing: 4px;
     font-size: 1.3rem;
+}
+
+.project h5 {
+    text-align: center;
 }
 
 .project-items {
@@ -267,7 +269,7 @@ article .bookstore {
 }
 
 .bookstore:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .bookstore img {
@@ -284,12 +286,10 @@ article .bookstore {
 
 .about-title {
     font-size: 1.3rem;
-    font-weight: 600;
-    color: #BBE1FA;
     letter-spacing: 1.5px;
 }
 
-.about {
+.about-items {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -297,25 +297,18 @@ article .bookstore {
     text-align: center;
 }
 
-.education {
+.about-items div {
     width: 300px;
     height: 100%;
-    background-color: #BBE1FA;
+    background-color: #0F4C75;
+    border-radius: 8px;
+    filter: drop-shadow(0 0 3px #BBE1FA);
 }
 
-.education span {
-    border: 1px solid red;
-    width: 100%;
-    color: #000;
+.education h3 {
+    letter-spacing: 1.5px;
 }
 
-.experience {
-    width: 300px;
-    height: 100%;
-    background-color: #BBE1FA;
-}
-
-.experience span {
-    border: 1px solid red;
-    width: 100%;
+.education h4 {
+    margin: 20px 0;
 }
