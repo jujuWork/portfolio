@@ -292,7 +292,8 @@ article .bookstore {
 .about-items {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 5rem;
     margin: 100px auto;
     text-align: center;
 }
@@ -311,4 +312,21 @@ article .bookstore {
 
 .education h4 {
     margin: 20px 0;
+}
+
+.experience h3 {
+    letter-spacing: 1.5px;
+}
+
+.experience h4 {
+    margin: 20px;
+}
+
+.about-me {
+    width: 30%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #0F4C75;
+    border-radius: 8px;
+    filter: drop-shadow(0 0 3px #BBE1FA);
 }
