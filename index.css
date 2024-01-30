@@ -360,20 +360,13 @@ article .bookstore {
 }
 
 .form {
-    width: 100%;
-}
+    border: 5px solid orange;
+    width: 100vh;
+    margin-left: 10px;
+    display: flex;
+} 
 
-.space {
-    border: 100;
-    margin: 140px auto;
-}
-
-.input-form {
-    border: 3px solid orange;
-    width: 100%;
-}
-
-.contact-title i {
-    margin: auto;
-    align-items: center;
+.FLname {
+    display: flex;
+    
 }
