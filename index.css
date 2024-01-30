@@ -362,6 +362,7 @@ article .bookstore {
 .form {
     width: 100%;
 }
+
 .space {
     border: 100;
     margin: 140px auto;
@@ -370,4 +371,9 @@ article .bookstore {
 .input-form {
     border: 3px solid orange;
     width: 100%;
+}
+
+.contact-title i {
+    margin: auto;
+    align-items: center;
 }
