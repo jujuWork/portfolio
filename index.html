@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css'>
+
+    <script src="index.js"></script>
 </head>
 <body>
     <nav>
@@ -178,50 +180,54 @@
             </div>
         </div>
     
-        <div class="form"> 
+        <form method="get" id="nameform">
 
-            <div class="FLname">
-                <div class="firstname">
-                    <label for="fname">
-                        <div>
-                            <div class="first-caption">First Name:</div>
-                        </div>
-                    </label>
-                        <input type="text" class="fname" id="fname" required>
-                </div> <br>
+                <div class="form">
+                    <div class="firstname">
+                        <label for="fname">
+                            <div>
+                                <div class="first-caption">First Name:</div>
+                            </div>
+                        </label>
+                            <input type="text" class="fname" id="fname" required>
+                    </div> <br>
 
-                <div class="lastname">
-                    <label for="lname">
-                        <div>
-                            <div class="last-caption">Last Name:</div>
-                        </div>
-                    </label>
-                        <input type="text" name="fname" id="lname" required>
-                </div> <br>
+                    <div class="lastname">
+                        <label for="lname">
+                            <div>
+                                <div class="last-caption">Last Name:</div>
+                            </div>
+                        </label>
+                            <input type="text" name="fname" id="lname" required>
+                    </div> <br>
 
-                <div class="email">
-                    <label for="email">
-                        <div class="email-caption">Email Address:</div>
-                    </label>
-                        <input type="email" name="email" id="email" required>
-                </div> <br>
+                    <div class="email">
+                        <label for="email">
+                            <div class="email-caption">Email Address:</div>
+                        </label>
+                            <input type="email" name="email" id="email" required>
+                    </div> <br>
 
-                <div class="website">
-                    <label for="website">
-                        <div class="website-caption">Website:</div>
-                            <input type="url" name="website" id="website" required placeholder="www.google.com">
-                    </label>
+                    <div class="website">
+                        <label for="website">
+                            <div class="website-caption">Website:</div>
+                                <input type="url" name="website" id="website" onblur="checkURL(this)" required >
+                        </label>
+                    </div> <br>
+
+                    <div class="message">
+                        <label for="message">
+                            <div class="message-caption">Message:</div>
+                                <textarea name="textarea" id="textarea" cols="34" rows="5" placeholder style="height: 100px;"></textarea>
+                        </label>
+                    </div> <br><br>
+
+                    <button type="submit" value="submit" form="nameform"><a href="mailto:joharrywork@gmail.com">Send</a></button>
+
                 </div>
 
-                <div class="message">
-                    <label for="message">
-                        <div class="message-caption">Message:</div>
-                            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
-                    </label>
-                </div>
-            </div>
+        </form>
 
-        </div>
     </article>
 
 
