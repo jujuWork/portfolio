@@ -163,7 +163,7 @@
     <article id="Contact">
 
         <div class="contact-title">
-            <strong><h2>CONTACT:</h2></strong>
+            <strong><h2>CONTACT: (Unfinished)</h2></strong>
             <br>
 
             <p>
@@ -176,11 +176,11 @@
             </p>
 
             <div class="location">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d203.3403862347429!2d136.925012775805!3d35.369388283567936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60030e99c93471db%3A0x92378b6e625a2ec!2sG%C5%8D-1489-1%20Kamino%2C%20Inuyama%2C%20Aichi%20484-0077!5e0!3m2!1sen!2sjp!4v1706535819167!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d203.3403862347429!2d136.925012775805!3d35.369388283567936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60030e99c93471db%3A0x92378b6e625a2ec!2sG%C5%8D-1489-1%20Kamino%2C%20Inuyama%2C%20Aichi%20484-0077!5e0!3m2!1sen!2sjp!4v1706535819167!5m2!1sen!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     
-        <form method="get" id="nameform">
+        <form method="get" id="contactform" action="form.php">
 
                 <div class="form">
                     <div class="firstname">
@@ -189,7 +189,7 @@
                                 <div class="first-caption">First Name:</div>
                             </div>
                         </label>
-                            <input type="text" class="fname" id="fname" required>
+                            <input type="text" class="fname" id="fname" autocomplete="off" required>
                     </div> <br>
 
                     <div class="lastname">
@@ -198,20 +198,20 @@
                                 <div class="last-caption">Last Name:</div>
                             </div>
                         </label>
-                            <input type="text" name="fname" id="lname" required>
+                            <input type="text" name="fname" id="lname" autocomplete="off" required>
                     </div> <br>
 
                     <div class="email">
                         <label for="email">
                             <div class="email-caption">Email Address:</div>
                         </label>
-                            <input type="email" name="email" id="email" required>
+                            <input type="email" name="email" id="email" autocomplete="off" required>
                     </div> <br>
 
                     <div class="website">
                         <label for="website">
                             <div class="website-caption">Website:</div>
-                                <input type="url" name="website" id="website" onblur="checkURL(this)" required >
+                                <input type="url" name="website" id="website" onblur="checkURL(this)" autocomplete="off" required >
                         </label>
                     </div> <br>
 
@@ -222,7 +222,7 @@
                         </label>
                     </div> <br><br>
 
-                    <button type="submit" value="submit" form="nameform"><a href="mailto:joharrywork@gmail.com">Send</a></button>
+                    <button type="submit" value="send">Send</button>
 
                 </div>
 
