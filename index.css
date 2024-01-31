@@ -361,12 +361,29 @@ article .bookstore {
 
 .form {
     border: 5px solid orange;
-    width: 100vh;
-    margin-left: 10px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 130px;
     display: flex;
+    box-sizing: border-box;
 } 
 
 .FLname {
-    display: flex;
-    
+    width: 100%;
+    gap: 15px;
+    padding: 5px;
+}
+
+#fname, #lname, #email, #website {
+    width: 90%;
+}
+
+input {
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.textarea {
+    width: 100%;
+    box-sizing: border-box;
 }

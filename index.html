@@ -179,6 +179,7 @@
         </div>
     
         <div class="form"> 
+
             <div class="FLname">
                 <div class="firstname">
                     <label for="fname">
@@ -186,8 +187,8 @@
                             <div class="first-caption">First Name:</div>
                         </div>
                     </label>
-                    <input type="text" class="fname" id="fname">
-                </div>
+                        <input type="text" class="fname" id="fname" required>
+                </div> <br>
 
                 <div class="lastname">
                     <label for="lname">
@@ -195,9 +196,31 @@
                             <div class="last-caption">Last Name:</div>
                         </div>
                     </label>
-                    <input type="text" name="fname" id="lname">
+                        <input type="text" name="fname" id="lname" required>
+                </div> <br>
+
+                <div class="email">
+                    <label for="email">
+                        <div class="email-caption">Email Address:</div>
+                    </label>
+                        <input type="email" name="email" id="email" required>
+                </div> <br>
+
+                <div class="website">
+                    <label for="website">
+                        <div class="website-caption">Website:</div>
+                            <input type="url" name="website" id="website" required placeholder="www.google.com">
+                    </label>
+                </div>
+
+                <div class="message">
+                    <label for="message">
+                        <div class="message-caption">Message:</div>
+                            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                    </label>
                 </div>
             </div>
+
         </div>
     </article>
 
