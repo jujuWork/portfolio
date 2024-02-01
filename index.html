@@ -13,6 +13,7 @@
 
     <script src="index.js"></script>
 </head>
+
 <body>
     <nav>
         <ul class="nav-list">
@@ -37,7 +38,7 @@
             </li>
 
             <li class="nav-item">
-                <a href="#About-Me">
+                <a href="#About">
                     <span class="span-nav">About</span>
                 </a>
             </li>
@@ -51,7 +52,11 @@
 
         </ul>
 
+        <div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        </div>
     </nav>
+
     <header>
         <div class="profpic"></div>
 
@@ -116,7 +121,7 @@
 
     </article>
 
-    <article id="About-Me">
+    <article id="About">
 
         <div class="about-title">
             <span><h2>ABOUT:</h2></span>
@@ -180,7 +185,7 @@
             </div>
         </div>
     
-        <form method="get" id="contactform" action="form.php">
+        <form method="post" id="contactform" action="mailto:joharrywork@gmail.com">
 
                 <div class="form">
                     <div class="firstname">
@@ -198,7 +203,7 @@
                                 <div class="last-caption">Last Name:</div>
                             </div>
                         </label>
-                            <input type="text" name="fname" id="lname" autocomplete="off" required>
+                            <input type="text" name="lname" id="lname" autocomplete="off" required>
                     </div> <br>
 
                     <div class="email">
@@ -223,6 +228,7 @@
                     </div> <br><br>
 
                     <button type="submit" value="send">Send</button>
+                    
 
                 </div>
 
