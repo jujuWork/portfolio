@@ -5,11 +5,6 @@
     nav a {
         display: inline;
     }
-
-    nav i {
-        display: none;
-    }
-    
 }
 
 @media screen and (max-width: 600px) {
@@ -18,11 +13,7 @@
         width: 95%;
         padding: 5px;
         margin: 0 auto;
-        border: 1px solid white;
-    }
-
-    nav {
-        border: 1px solid red;
+        text-align: center;
     }
 
     nav span {
@@ -39,9 +30,9 @@
         color: #BBE1FA;  
     }
 
-    #myBtn {
-        position: absolute;
-        right: 0;
+    .fixedbutton {
+        position: fixed;
         bottom: 0;
+        right: 8px;
     }
 }
