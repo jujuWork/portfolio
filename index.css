@@ -75,7 +75,7 @@ nav {
 #myBtn {
     position: fixed;
     bottom: 20px;
-    right: 30px;
+    right: 10px;
     z-index: 99;
     background-color: transparent;
     color: #3282B8;
@@ -89,7 +89,7 @@ nav {
 }
 
 #myBtn:hover {
-    transform: scale(1.5);    
+    transform: scale(1.2);    
 }
 
 /* HEADER */
